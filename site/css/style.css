@@ -1,0 +1,100 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+}
+.navbar, .navbar-default{
+    background-color: gray;
+    margin-bottom: 2em;
+}
+
+.navbar-brand {
+    padding-top: 0em;
+  }
+  
+.navbar-brand h1 { /* Brand name */
+    color:black;
+    font-weight: bold;
+    margin-top: -5%;
+  }
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+#menu1 #nav-list{
+    text-align: center;
+    background-color: lightcyan;
+}
+
+#menu1 #nav-list li a{
+    color: darkblue;
+}
+
+
+h2{
+    font-size: 175%;
+    font-weight: bold;
+    position: relative;
+}
+
+.row{
+    margin:30px;
+    height: 1000px;
+}
+
+.content1{
+    border: 1px solid black;
+    overflow: auto;
+    background-color: gray;
+}
+.sectionhead{
+    font-size: 125%;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    width: 150px;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.subcontent{
+    position: relative;
+    float: left;
+    padding: 10px;
+}
+
+.col-md-12, .col-sm-12, .col-xs-12{
+    margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+    .visibility{
+        visibility: hidden;
+    }    
+  }
+  
+  /********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .visibility{
+        visibility: hidden;
+    }    
+  }
+  
+@media (max-width: 767px) {
+
+  }
+  
